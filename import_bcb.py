@@ -18,9 +18,6 @@ bsl = bsl[bsl['Ultimo']>=pd.to_datetime('04/01/2022')]
 
 bsl = bsl.reset_index().iloc[:,1:]
 
-#importando funcao do teste de raiz unitaria para detectar estacionariedade
-from statsmodels.tsa.stattools import adfuller
-
 #loop que importa as series e trabalha elas
 #importando a serie
 
@@ -29,7 +26,7 @@ for x in bsl['Codigo']:
     try:
         obj = sgs.get((x,x))
 
-        obj = obj[obj.index.year >2009]
+        obj = obj[obj.index.year >= 2000]
         
         if x == bsl['Codigo'].iloc[0]:
             bdf = obj
