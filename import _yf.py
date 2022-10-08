@@ -28,6 +28,8 @@ for x in cl:
     else:
         cdf = pd.concat([cdf,c],axis=1)
 
+cdf.index.name = 'Date'
+
 cdf.to_csv('data/yf_series.csv',sep =';')
 
 
