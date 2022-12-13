@@ -1,6 +1,7 @@
 # Métodos de Aprendizagem de Máquina aplicados a previsão da inflação
 
 Projeto desenvolvido visando obter o titulo de especialista em Aprendizado de Máquina e Inteligência Artificial.
+---------------------------------
 
 O nível de preços afeta diretamente a vida de todos os agentes econômicos da sociedade, influenciando as decisões imediatas e também o planejamento futuro tanto nas relações de consumo quanto nas de investimento. De junho de 2018 a junho de 2022 o real perdeu cerca de 21% do seu poder de compra de acordo com o principal índice de preços do Brasil o Índice de Preços ao Consumidor Amplo (IPCA), de modo que para a população apresentar um padrão de consumo maior os reajustes salariais deveriam ter sido acima desse percentual, fato este que não ocorreu segundo o acompanhamento dos estudos do Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese). Neste contexto, este trabalho tem como objetivo fazer um modelo que permita prever a variação do nível de preços acumulada para os próximos 3 meses, possibilitando a tomada de decisões de curto e médio prazo com maior segurança e contribuir na pesquisa de métodos de previsão dos níveis de inflação e os benefícios que suas soluções podem trazer ao governo, empresas e sociedade.
 
